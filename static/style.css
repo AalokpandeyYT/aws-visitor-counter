@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #2563eb);
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    padding: 2.5rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.badge {
+    display: inline-block;
+    background: #ffffff22;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #dbeafe;
+}
+
+.stats {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1.2rem 0;
+}
+
+.stat-box {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.9rem 1.1rem;
+    border-radius: 12px;
+    min-width: 110px;
+}
+
+.label {
+    display: block;
+    font-size: 0.85rem;
+    color: #cbd5e1;
+    margin-bottom: 0.3rem;
+}
+
+.value {
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.message {
+    margin-bottom: 0;
+    font-size: 1rem;
+}

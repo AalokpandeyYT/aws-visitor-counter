@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Visitor Counter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <div class="badge">☁ AWS</div>
+        <h1>Visitor Counter</h1>
+        <p class="subtitle">Hello from AWS</p>
+        <div class="stats">
+            <div class="stat-box">
+                <span class="label">Visitors</span>
+                <span class="value">{{ visit_count }}</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Time</span>
+                <span class="value">11:45 AM</span>
+            </div>
+        </div>
+        <p class="message">Welcome to my AWS project!</p>
+    </div>
+</body>
+</html>
